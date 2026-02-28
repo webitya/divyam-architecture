@@ -66,12 +66,19 @@ export default function Preloader({ onFinish }) {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="relative z-10 flex flex-col items-center"
       >
+        {/* Brand Logo Image */}
+        <img
+          src="/divyamarchitectlogo.webp"
+          alt="DIVYAM"
+          className="w-24 sm:w-32 md:w-40 h-auto mb-8 object-contain"
+        />
+
         {/* Main Logo Text */}
         <h1 className="text-6xl sm:text-7xl md:text-8xl font-extrabold text-black tracking-[0.25em] mb-4">
-          PEA
+          DIVYAM
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl font-light tracking-[0.35em] text-gray-600 uppercase">
-          PLANEDGE ARCHITECT
+          DIVYAM ARCHITECTURE & DESIGN STUDIO
         </p>
       </motion.div>
 

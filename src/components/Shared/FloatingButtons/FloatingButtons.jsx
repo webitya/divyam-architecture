@@ -18,14 +18,13 @@ export default function FloatingButtons() {
 
   return (
     <div
-      className={`fixed bottom-4 right-3 flex flex-col gap-2 z-50 transition-opacity duration-700 ${
-        show ? "opacity-100" : "opacity-0 pointer-events-none"
-      }`}
+      className={`fixed bottom-4 right-3 flex flex-col gap-2 z-50 transition-opacity duration-700 ${show ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
     >
 
       {/* CALL BUTTON — white background */}
       <a
-        href="tel:+919971189665"
+        href="tel:+919956737555"
         className="w-11 h-11 bg-white text-black rounded-lg 
                    flex items-center justify-center 
                    shadow-lg border border-gray-300
@@ -36,7 +35,7 @@ export default function FloatingButtons() {
 
       {/* WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/919971189665?text=Hello%20Plan%20Edge%20Architect%2C%20I%20have%20a%20query."
+        href="https://wa.me/919956737555?text=Hello%20Divyam%20Architecture%20%26%20Design%20Studio%2C%20I%20have%20a%20query."
         target="_blank"
         className="w-11 h-11 bg-green-500 text-white rounded-lg 
                    flex items-center justify-center 

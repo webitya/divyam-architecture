@@ -29,10 +29,14 @@ export default function Menu() {
       name: "Services",
       sub: [
         { title: "Architectural Design", path: "/services/architectural-design", icon: "🏛️" },
-        { title: "Planning Applications", path: "/services/planning-applications", icon: "📋" },
         { title: "Interior Design", path: "/services/interior-design", icon: "🎨" },
-        { title: "Conservation & Heritage Design", path: "/services/conservation-heritage", icon: "🏰" },
-        { title: "Create & Construct", path: "/services/create-construct", icon: "🔨" },
+        { title: "Landscape Design", path: "/services/landscape-design", icon: "🌳" },
+        { title: "3D Elevations", path: "/services/renders", icon: "🏙️" },
+        { title: "Renders", path: "/services/renders", icon: "🖥️" },
+        { title: "Sustainable Home Solutions", path: "/services/sustainable-solutions", icon: "🌿" },
+        { title: "Space Planning & Renovations", path: "/services/renovations", icon: "🔧" },
+        { title: "Professional Advice", path: "/services/consultation", icon: "💡" },
+        { title: "Consultation", path: "/services/consultation", icon: "📞" },
       ],
     },
     {
@@ -173,40 +177,51 @@ export default function Menu() {
               href="/"
               style={{
                 display: "flex",
-                flexDirection: "column",
-                lineHeight: 1.1,
+                alignItems: "center",
+                gap: "0.75rem",
                 textDecoration: "none",
                 transition: "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "scale(1.05)";
+                e.currentTarget.style.transform = "scale(1.02)";
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = "scale(1)";
               }}
             >
-              <span
+              <img
+                src="/divyamarchitectlogo.webp"
+                alt="DIVYAM ARCHITECTURE & DESIGN STUDIO"
                 style={{
-                  fontSize: "1.5rem",
-                  color: "#27272a",
-                  fontWeight: 700,
-                  letterSpacing: "0.18em",
+                  height: "40px",
+                  width: "auto",
+                  objectFit: "contain",
                 }}
-              >
-                PEA
-              </span>
+              />
+              <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.1 }}>
+                <span
+                  style={{
+                    fontSize: "1.5rem",
+                    color: "#27272a",
+                    fontWeight: 700,
+                    letterSpacing: "0.18em",
+                  }}
+                >
+                  DIVYAM
+                </span>
 
-              <span
-                style={{
-                  fontSize: "0.625rem",
-                  letterSpacing: "0.35em",
-                  color: "#52525b",
-                  fontWeight: 500,
-                  marginTop: "1px",
-                }}
-              >
-                PLANEDGE ARCHITECT
-              </span>
+                <span
+                  style={{
+                    fontSize: "0.625rem",
+                    letterSpacing: "0.35em",
+                    color: "#52525b",
+                    fontWeight: 500,
+                    marginTop: "1px",
+                  }}
+                >
+                  DIVYAM ARCHITECTURE & DESIGN STUDIO
+                </span>
+              </div>
             </Link>
 
             {/* RIGHT SIDE BUTTONS */}
@@ -597,28 +612,28 @@ export default function Menu() {
                   path: "/services/architectural-design",
                 },
                 {
-                  id: "planning-applications",
-                  title: "Planning Applications",
-                  image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
-                  path: "/services/planning-applications",
-                },
-                {
                   id: "interior-design",
                   title: "Interior Design",
                   image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=500&h=300&fit=crop",
                   path: "/services/interior-design",
                 },
                 {
-                  id: "conservation-heritage",
-                  title: "Conservation & Heritage",
-                  image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500&h=300&fit=crop",
-                  path: "/services/conservation-heritage",
+                  id: "landscape-design",
+                  title: "Landscape Design",
+                  image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=500&h=300&fit=crop",
+                  path: "/services/landscape-design",
                 },
                 {
-                  id: "create-construct",
-                  title: "Create & Construct",
+                  id: "renders",
+                  title: "3D Elevations & Renders",
                   image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500&h=300&fit=crop",
-                  path: "/services/create-construct",
+                  path: "/services/renders",
+                },
+                {
+                  id: "sustainable-solutions",
+                  title: "Sustainable Solutions",
+                  image: "https://images.unsplash.com/photo-1518005020411-3888080c19f1?w=500&h=300&fit=crop",
+                  path: "/services/sustainable-solutions",
                 },
               ].map((service, idx) => (
                 <Link

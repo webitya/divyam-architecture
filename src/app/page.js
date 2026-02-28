@@ -48,8 +48,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Planedge Architect creates thoughtful spaces where design meets
-          purpose and everyday living becomes extraordinary
+          DIVYAM ARCHITECTURE & DESIGN STUDIO focus on taking inspiration from the past, the context, the client requirements and the future to provide sustainable solutions, creating experience through design. Committed to bring your dream vision to life, we provide an array of ideas through plans, mood boards, 2D & 3D renderings.
         </motion.p>
 
         {/* CTA */}

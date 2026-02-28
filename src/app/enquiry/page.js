@@ -1,18 +1,18 @@
 import EnquiryForm from "./EnquiryForm";
 
 export const metadata = {
-  title: "Enquiry | Plan Edge Architect",
+  title: "Enquiry | DIVYAM ARCHITECTURE & DESIGN STUDIO",
   description:
-    "Submit your enquiry for architectural design, planning, interiors, and more. Our team at Plan Edge Architect will connect with you shortly.",
+    "Submit your enquiry for architectural design, interior design, landscape design, and more. Our team at DIVYAM ARCHITECTURE & DESIGN STUDIO will connect with you shortly.",
   alternates: {
-    canonical: "https://planedgearchitect.com/enquiry",
+    canonical: "https://divyamarchitecture.com/enquiry",
   },
   openGraph: {
-    title: "Enquiry | Plan Edge Architect",
+    title: "Enquiry | DIVYAM ARCHITECTURE & DESIGN STUDIO",
     description:
       "Submit your enquiry for architectural and design services.",
-    url: "https://planedgearchitect.com/enquiry",
-    siteName: "Plan Edge Architect",
+    url: "https://divyamarchitecture.com/enquiry",
+    siteName: "DIVYAM ARCHITECTURE & DESIGN STUDIO",
     images: [
       {
         url: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",

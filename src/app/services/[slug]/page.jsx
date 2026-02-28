@@ -14,54 +14,11 @@ const serviceDetails = {
     heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=1000&fit=crop",
     sections: [
       {
-        title: "Residential Architecture",
-        description:
-          "We specialize in creating bespoke residential designs that seamlessly blend functionality with aesthetic excellence. Our approach focuses on understanding the lifestyle and aspirations of our clients, translating these into thoughtfully designed living spaces. From contemporary minimalist homes to classic heritage-inspired properties, we deliver architecture that enhances daily living while respecting the surrounding environment.",
+        title: "Bespoke Design Solutions",
+        description: "We focus on taking inspiration from the past, the context, the client requirements and the future to provide sustainable solutions, creating experience through design.",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&h=700&fit=crop",
-        features: ["Bespoke Home Design", "Sustainable Living", "Contextual Integration"]
-      },
-      {
-        title: "Commercial Spaces",
-        description:
-          "Our commercial architectural expertise spans office buildings, retail spaces, and mixed-use developments. We create dynamic environments that foster productivity, creativity, and commercial success. Each project is designed with careful attention to workflow optimization, natural lighting, and sustainable building practices that reduce operational costs while enhancing occupant well-being.",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&h=700&fit=crop",
-        features: ["Workplace Strategy", "Retail Experience", "Adaptive Reuse"]
-      },
-      {
-        title: "Design Philosophy",
-        description:
-          "Our design philosophy is rooted in the principle that architecture should serve both form and function. We believe in creating spaces that inspire, promote well-being, and stand the test of time. We engage deeply with site context, climatic conditions, and local character to create architecture that feels both timeless and contemporary.",
-        image: "https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?w=900&h=700&fit=crop",
-        features: ["Timeless Aesthetics", "Functionality First", "Environmental Harmony"]
-      },
-    ],
-    nextService: { name: "Planning Applications", slug: "planning-applications" }
-  },
-  "planning-applications": {
-    title: "Planning Applications",
-    heroImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&h=1000&fit=crop",
-    sections: [
-      {
-        title: "Strategic Planning",
-        description:
-          "Navigating the planning approval process requires expertise, local knowledge, and strategic thinking. We guide clients through every stage of the planning application, from pre-application consultations through to final approval. Our proactive approach includes pre-application engagement with planning officers to identify and resolve potential issues early.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&h=700&fit=crop",
-        features: ["Feasibility Studies", "Policy Analysis", "Risk Mitigation"]
-      },
-      {
-        title: "Regulatory Compliance",
-        description:
-          "Building regulations, zoning laws, and environmental regulations form a complex landscape that we navigate with precision. Our planning specialists ensure full compliance with all applicable regulations while optimizing your project's design and timeline. We handle statutory consultations, environmental assessments, and neighbor negotiations with professionalism.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&h=700&fit=crop",
-        features: ["Zoning Laws", "Building Codes", "Environmental Assessments"]
-      },
-      {
-        title: "Community Engagement",
-        description:
-          "Successful planning outcomes often depend on community support and stakeholder engagement. We develop comprehensive community engagement strategies that build consensus and demonstrate project benefits. Through public consultations and transparent communication, we foster positive relationships and address concerns early in the process.",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&h=700&fit=crop",
-        features: ["Public Consultation", "Stakeholder Management", "Presentation Graphics"]
-      },
+        features: ["Sustainable Solutions", "Client-Centric Design", "Future-Ready Architecture"]
+      }
     ],
     nextService: { name: "Interior Design", slug: "interior-design" }
   },
@@ -70,82 +27,76 @@ const serviceDetails = {
     heroImage: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&h=1000&fit=crop",
     sections: [
       {
-        title: "Spatial Planning",
-        description:
-          "Exceptional interior design begins with intelligent spatial planning. We analyze flow patterns, natural light, and spatial relationships to create layouts that maximize functionality and aesthetic impact. Our designs optimize space utilization while creating distinct zones for different activities, ensuring your interior supports both practical needs and lifestyle aspirations.",
+        title: "Elegant Interiors",
+        description: "Creating experiences through design. We deliver plans, mood boards, and renderings that bring your dream vision to life.",
         image: "https://images.unsplash.com/photo-1635108197780-5099f0a4e50d?w=900&h=700&fit=crop",
-        features: ["Flow Optimization", "Space Utilization", "Zoning Strategy"]
-      },
-      {
-        title: "Material Selection",
-        description:
-          "The choice of materials profoundly influences the character and durability of interior spaces. We curate premium materials that balance aesthetic appeal with practical performance requirements. Our selection process considers sustainability, maintenance, cost-effectiveness, and design intent, ensuring each material choice contributes cohesively to the overall design vision.",
-        image: "https://plus.unsplash.com/premium_photo-1682148691154-68588e72071e?w=900&h=700&fit=crop",
-        features: ["Premium Finishes", "Durability Analysis", "Sustainability Focus"]
-      },
-      {
-        title: "Lighting & Ambiance",
-        description:
-          "Lighting design is crucial to creating spaces that are both functional and emotionally resonant. We integrate natural and artificial lighting strategically to enhance spatial qualities and mood. Through thoughtful illumination design, we create dynamic environments that adapt to different times of day and activities.",
-        image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&h=700&fit=crop",
-        features: ["Daylight Analysis", "Mood Lighting", "Fixture Specification"]
-      },
+        features: ["Space Planning", "Mood Boards", "Luxury Finishes"]
+      }
     ],
-    nextService: { name: "Conservation & Heritage", slug: "conservation-heritage" }
+    nextService: { name: "Landscape Design", slug: "landscape-design" }
   },
-  "conservation-heritage": {
-    title: "Conservation & Heritage",
-    heroImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=1000&fit=crop",
+  "landscape-design": {
+    title: "Landscape Design",
+    heroImage: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=1600&h=1000&fit=crop",
     sections: [
       {
-        title: "Heritage Restoration",
-        description:
-          "Restoring heritage buildings requires deep knowledge of historical construction, architectural styles, and conservation principles. We approach each restoration project with meticulous research and respect for historical authenticity. Our team collaborates with conservation specialists to preserve original features while implementing sensitive modern interventions.",
-        image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=700&fit=crop",
-        features: ["Historical Research", "Authentic Restoration", "Sensitive Intervention"]
-      },
-      {
-        title: "Adaptive Reuse",
-        description:
-          "Historic buildings hold immense cultural and architectural value. We specialize in adaptive reuse projects that breathe new life into heritage structures, transforming them for contemporary use while preserving their character. From historic warehouses converted to modern residences to period properties reimagined as cultural centers.",
-        image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=900&h=700&fit=crop",
-        features: ["Modern Integration", "Cultural Preservation", "Sustainable Renewal"]
-      },
-      {
-        title: "Regulatory Standards",
-        description:
-          "Conservation work is governed by strict heritage regulations. We maintain expert knowledge of conservation area regulations, listed building rules, and heritage planning guidelines. Our approach ensures all interventions meet stringent heritage conservation standards while working collaboratively with heritage authorities to achieve approvals.",
-        image: "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?w=900&h=700&fit=crop",
-        features: ["Listed Building Consent", "Conservation Areas", "Authority Liaison"]
-      },
+        title: "Garden & Outdoor Living",
+        description: "We create immersive outdoor spaces that extend your living area into nature. Our landscape designs focus on harmony between architecture and the natural environment.",
+        image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=900&h=700&fit=crop",
+        features: ["Bespoke Garden Design", "Outdoor Kitchens", "Water Features"]
+      }
     ],
-    nextService: { name: "Create & Construct", slug: "create-construct" }
+    nextService: { name: "3D Elevations & Renders", slug: "renders" }
   },
-  "create-construct": {
-    title: "Create & Construct",
+  "renders": {
+    title: "3D Elevations & Renders",
     heroImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&h=1000&fit=crop",
     sections: [
       {
-        title: "Project Management",
-        description:
-          "From concept through completion, our project management expertise ensures seamless execution of construction projects. We coordinate all trades, manage timelines and budgets, and maintain rigorous quality standards throughout the building process. Our proactive approach anticipates challenges and implements solutions efficiently.",
-        image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&h=700&fit=crop",
-        features: ["Timeline Management", "Budget Control", "Quality Assurance"]
-      },
+        title: "Photorealistic Visuals",
+        description: "Our high-end 3D renderings and 2D plans help you visualize your dream project before construction begins. We bring plans to life with light and texture.",
+        image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&h=700&fit=crop",
+        features: ["High-Res Renders", "Walkthrough Animations", "Detailed 2D Plans"]
+      }
+    ],
+    nextService: { name: "Sustainable Home Solutions", slug: "sustainable-solutions" }
+  },
+  "sustainable-solutions": {
+    title: "Sustainable Home Solutions",
+    heroImage: "https://images.unsplash.com/photo-1518005020411-3888080c19f1?w=1600&h=1000&fit=crop",
+    sections: [
       {
-        title: "Build Quality",
-        description:
-          "Construction excellence is our hallmark. We employ skilled tradespeople and implement robust quality control processes at every stage. Our attention to detail ensures that finished buildings meet design specifications precisely, with flawless execution of architectural details and superior craftsmanship that creates built environments of lasting quality.",
-        image: "https://images.unsplash.com/photo-1582647509711-c8aa8a8bda71?w=900&h=700&fit=crop",
-        features: ["Skilled Craftsmanship", "Material Testing", "Flawless Execution"]
-      },
+        title: "Eco-Friendly Design",
+        description: "We focus on sustainable solutions that reduce environmental impact and lower energy costs. From solar orientation to green materials, we design for the future.",
+        image: "https://images.unsplash.com/photo-1518005020411-3888080c19f1?w=900&h=700&fit=crop",
+        features: ["Energy Efficiency", "Solar Integration", "Sustainable Materials"]
+      }
+    ],
+    nextService: { name: "Space Planning & Renovations", slug: "renovations" }
+  },
+  "renovations": {
+    title: "Space Planning & Renovations",
+    heroImage: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=1600&h=1000&fit=crop",
+    sections: [
       {
-        title: "Sustainable Building",
-        description:
-          "We integrate sustainable construction practices into every project, minimizing environmental impact while reducing long-term operational costs. This includes sustainable material sourcing, energy-efficient building systems, waste reduction strategies, and environmental site management.",
-        image: "https://images.unsplash.com/photo-1674821770946-4f774b1907d7?w=900&h=700&fit=crop",
-        features: ["Green Certifications", "Energy Efficiency", "Waste Reduction"]
-      },
+        title: "Transforming Spaces",
+        description: "We breathe new life into existing structures through thoughtful renovations and efficient space planning. We maximize potential and modernize living areas.",
+        image: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=900&h=700&fit=crop",
+        features: ["Structural Changes", "Modernization", "Space Optimization"]
+      }
+    ],
+    nextService: { name: "Professional Advice & Consultation", slug: "consultation" }
+  },
+  "consultation": {
+    title: "Professional Advice & Consultation",
+    heroImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&h=1000&fit=crop",
+    sections: [
+      {
+        title: "Expert Guidance",
+        description: "Our professional consultation services provide you with the insights needed to make informed decisions about your architectural and design projects.",
+        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&h=700&fit=crop",
+        features: ["Project Feasibility", "Technological Advice", "Site Analysis"]
+      }
     ],
     nextService: { name: "Architectural Design", slug: "architectural-design" }
   },

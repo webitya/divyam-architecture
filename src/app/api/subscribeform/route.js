@@ -16,9 +16,9 @@ export async function POST(req) {
 
     // Send to Admin
     await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: process.env.MAIL_USER,
-      subject: "New Subscriber - Plan Edge Architect",
+      subject: "New Subscriber - DIVYAM ARCHITECTURE & DESIGN STUDIO",
       html: `
         <h2>New Newsletter Subscription</h2>
         <p><strong>Name:</strong> ${name}</p>
@@ -28,15 +28,13 @@ export async function POST(req) {
 
     // Send Thank You Email to User
     await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: email,
-      subject: "Thank You for Subscribing!",
+      subject: "Thank you for subscribing",
       html: `
-        <h2>Welcome, ${name}!</h2>
-        <p>Thank you for subscribing to Plan Edge Architect.</p>
-        <p>You'll start receiving updates very soon.</p>
-        <br/>
-        <p>Warm Regards,<br/>Plan Edge Architect Team</p>
+        <h3>Hello, ${name}!</h3>
+        <p>Thank you for subscribing to DIVYAM ARCHITECTURE & DESIGN STUDIO. You'll now receive our latest updates and design inspirations.</p>
+        <p>Warm Regards,<br/>DIVYAM ARCHITECTURE & DESIGN STUDIO Team</p>
       `,
     });
 

@@ -15,12 +15,12 @@ import Footer from "@/components/Shared/Footer/Footer"
 
 export default function AboutPage() {
   React.useEffect(() => {
-    document.title = "About Us | Planedge Architect - Premium Architectural Design"
+    document.title = "About Us | DIVYAM ARCHITECTURE & DESIGN STUDIO - Sustainable Design Solutions"
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Discover Planedge Architects mission, vision, and core values. Leading architectural design and planning solutions for 15+ years.",
+        "Learn about DIVYAM ARCHITECTURE & DESIGN STUDIO, led by Divyam Gupta (B.ARCH). We focus on sustainable solutions, creating experiences through design.",
       )
     }
   }, [])
@@ -28,29 +28,32 @@ export default function AboutPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Planedge Architect",
-    alternateName: "PEA",
-    url: "https://planegedearchitect.com",
-    description: "Premium architectural design and planning solutions",
+    name: "DIVYAM ARCHITECTURE & DESIGN STUDIO",
+    alternateName: "DIVYAM",
+    url: "https://divyamarchitecture.com",
+    description: "Taking inspiration from the past, the context, the client requirements and the future to provide sustainable solutions, creating experience through design.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "123 Architecture Ave",
-      addressLocality: "New York",
-      addressRegion: "NY",
-      postalCode: "10001",
-      addressCountry: "US",
+      streetAddress: "Near Sumer Nursing Home, Sinzai",
+      addressLocality: "Shahjahanpur",
+      addressRegion: "UP",
+      postalCode: "242001",
+      addressCountry: "IN",
     },
-    telephone: "+1-800-222-8764",
-    email: "info@planegedearchitect.com",
+    telephone: "+91-9956737555",
+    email: "ar.divyamgupta@gmail.com",
   }
 
   const services = [
-    { title: "Architectural Design", desc: "Innovative and contemporary design solutions", icon: ArchitectureIcon },
-    { title: "Urban Planning", desc: "Strategic planning for sustainable communities", icon: LocationOnIcon },
-    { title: "Structural Engineering", desc: "Advanced structural solutions and analysis", icon: EngineeringIcon },
+    { title: "Architectural Design", desc: "Sustainable and context-driven architectural solutions", icon: ArchitectureIcon },
     { title: "Interior Design", desc: "Elegant and functional interior spaces", icon: PaletteIcon },
-    { title: "Sustainability", desc: "Green building and eco-friendly practices", icon: EmojiObjectsIcon },
-    { title: "Project Management", desc: "Expert coordination and delivery oversight", icon: BuildIcon },
+    { title: "Landscape Design", desc: "Harmonizing nature with the built environment", icon: LocationOnIcon },
+    { title: "3D Elevations", desc: "Professional detailed 3D design views", icon: VisibilityIcon },
+    { title: "Renders", desc: "High-end photorealistic project renderings", icon: VisibilityIcon },
+    { title: "Sustainable Home Solutions", desc: "Green building and eco-friendly home solutions", icon: EmojiObjectsIcon },
+    { title: "Space Planning & Renovations", desc: "Expert space optimization and modern transformations", icon: BuildIcon },
+    { title: "Professional Advice", desc: "Expert guidance for your project success", icon: EngineeringIcon },
+    { title: "Consultation", desc: "Personalized design strategy sessions", icon: GroupIcon },
   ]
 
   return (
@@ -84,14 +87,13 @@ export default function AboutPage() {
           {/* TEXT CONTENT */}
           <div className="relative z-10 max-w-6xl mx-auto px-8 w-full">
             <div className="max-w-2xl">
-              <h1 className="text-7xl md:text-8xl font-bold mb-8 leading-tight tracking-tight">
-                PLAN EDGE ARCHITECT
+              <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight tracking-tight">
+                DIVYAM ARCHITECTURE & DESIGN STUDIO
               </h1>
-              <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-                A forward-thinking architectural firm shaping the built environment
-                through innovative design and sustainable practices.
+              <p className="text-lg text-gray-300 mb-12 leading-relaxed">
+                Taking inspiration from the past, context, requirements and future. Committed to bringing your vision to life with plans, mood boards, and renderings.
               </p>
-              <button className="px-8 py-4 bg-white text-black font-semibold hover:bg-gray-200 transition">
+              <button className="px-6 py-3 bg-white text-black font-semibold hover:bg-gray-200 transition">
                 Read More
               </button>
             </div>
@@ -104,24 +106,23 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2">
             {/* Left: Content */}
             <div className="py-32 px-8 md:px-12 flex flex-col justify-center">
-              <p className="text-gray-600 uppercase text-sm tracking-widest mb-6">Who We Are</p>
-              <h2 className="text-5xl font-bold mb-8 leading-tight">Planedge Architect</h2>
+              <p className="text-gray-600 uppercase text-xs tracking-widest mb-6">Who We Are</p>
+              <h2 className="text-3xl font-bold mb-4 leading-tight">DIVYAM ARCHITECTURE & DESIGN STUDIO</h2>
+              <div className="mb-8">
+                <p className="text-xl font-semibold text-black uppercase tracking-wide">Divyam Gupta</p>
+                <p className="text-base text-gray-500 font-medium">Principal Architect | B.ARCH</p>
+              </div>
 
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Planedge Architect (PEA) is an established architectural and design firm dedicated to creating
-                innovative, sustainable, and transformative spaces. With over 15 years of industry experience, we have
-                established ourselves as leaders in architectural excellence.
+              <p className="text-base text-gray-700 mb-6 leading-relaxed">
+                We focus on taking inspiration from the past, the context, the client requirements and the future to provide sustainable solutions, creating experience through design.
               </p>
 
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Our award-winning team collaborates seamlessly to deliver projects that exceed expectations. We believe
-                that great architecture goes beyond aesthetics—it creates functional spaces that enhance lives and
-                communities.
+              <p className="text-base text-gray-700 mb-8 leading-relaxed">
+                Committed to bring your dream vision to life, we provide an array of ideas through plans, mood boards, 2D & 3D renderings.
               </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
-                From concept to completion, we maintain the highest standards of excellence, ensuring every project
-                reflects our commitment to innovation, sustainability, and timeless design.
+              <p className="text-base text-gray-700 leading-relaxed">
+                Our approach ensures that every project reflects a deep understanding of its surroundings while meeting the unique needs of our clients. We believe in architecture that creates lasting value and meaningful experiences.
               </p>
             </div>
 
@@ -181,20 +182,20 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
-                <h3 className="text-5xl font-bold text-black mb-2">400+</h3>
-                <p className="text-gray-600 text-lg">Projects Completed</p>
+                <h3 className="text-4xl font-bold text-black mb-2">400+</h3>
+                <p className="text-gray-600 text-base">Projects Completed</p>
               </div>
               <div className="text-center border-l border-gray-300">
-                <h3 className="text-5xl font-bold text-black mb-2">50+</h3>
-                <p className="text-gray-600 text-lg">Team Members</p>
+                <h3 className="text-4xl font-bold text-black mb-2">50+</h3>
+                <p className="text-gray-600 text-base">Team Members</p>
               </div>
               <div className="text-center border-l border-gray-300">
-                <h3 className="text-5xl font-bold text-black mb-2">15+</h3>
-                <p className="text-gray-600 text-lg">Years Experience</p>
+                <h3 className="text-4xl font-bold text-black mb-2">15+</h3>
+                <p className="text-gray-600 text-base">Years Experience</p>
               </div>
               <div className="text-center border-l border-gray-300">
-                <h3 className="text-5xl font-bold text-black mb-2">25+</h3>
-                <p className="text-gray-600 text-lg">Awards Won</p>
+                <h3 className="text-4xl font-bold text-black mb-2">25+</h3>
+                <p className="text-gray-600 text-base">Awards Won</p>
               </div>
             </div>
           </div>
@@ -206,7 +207,7 @@ export default function AboutPage() {
             {/* Left: Visual */}
             <div className="min-h-96 md:min-h-full bg-gradient-to-br from-gray-900 to-black flex items-center justify-center p-12">
               <div className="text-center">
-                <h2 className="text-6xl md:text-7xl font-bold tracking-tight leading-tight">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
                   DESIGN
                   <br />
                   MATTERS
@@ -216,16 +217,16 @@ export default function AboutPage() {
 
             {/* Right: Content */}
             <div className="py-24 px-12 flex flex-col justify-center">
-              <p className="text-gray-400 uppercase text-sm tracking-widest mb-6">Design Philosophy</p>
-              <h3 className="text-4xl font-bold mb-8">Our Design Philosophy</h3>
+              <p className="text-gray-400 uppercase text-xs tracking-widest mb-6">Design Philosophy</p>
+              <h3 className="text-2xl font-bold mb-8">Our Design Philosophy</h3>
 
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base text-gray-300 mb-8 leading-relaxed">
                 Design is not just about creating beautiful spaces. It is about solving problems, improving lives, and
                 shaping how people experience their environment. Every project is an opportunity to innovate and make a
                 meaningful impact.
               </p>
 
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base text-gray-300 mb-8 leading-relaxed">
                 We believe that thoughtful design should balance aesthetics with functionality, sustainability with
                 innovation, and vision with practicality. Our approach ensures that every space we create enhances both
                 the built environment and the lives of those who inhabit it.
@@ -253,8 +254,8 @@ export default function AboutPage() {
         <section className="relative w-full py-32 px-8 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-20">
-              <p className="text-gray-600 uppercase text-sm tracking-widest mb-4">Our Foundation</p>
-              <h2 className="text-5xl md:text-6xl font-bold">Core Values</h2>
+              <p className="text-gray-600 uppercase text-xs tracking-widest mb-4">Our Foundation</p>
+              <h2 className="text-3xl md:text-4xl font-bold">Core Values</h2>
             </div>
 
             <div className="grid md:grid-cols-3 gap-12">
@@ -299,16 +300,16 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2">
             {/* Left: Content */}
             <div className="py-32 px-12 flex flex-col justify-center order-2 md:order-1">
-              <p className="text-gray-400 uppercase text-sm tracking-widest mb-6">Studio Overview</p>
-              <h2 className="text-5xl font-bold mb-8">Our Design Studio</h2>
+              <p className="text-gray-400 uppercase text-xs tracking-widest mb-6">Studio Overview</p>
+              <h2 className="text-3xl font-bold mb-8">Our Design Studio</h2>
 
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base text-gray-300 mb-8 leading-relaxed">
                 Our studio represents a diverse team of architects, engineers, and designers who bring unique
                 perspectives and expertise. We pride ourselves on fostering a collaborative culture where ideas flourish
                 and innovation thrives.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-base text-gray-300 leading-relaxed">
                 The studio combines creativity and innovation with a commitment to producing high-quality architectural
                 solutions. Excellence is the standard we expect in everything we do, from initial concept to final
                 delivery.
@@ -330,8 +331,8 @@ export default function AboutPage() {
         <section className="relative w-full py-32 px-8 bg-gray-50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-20">
-              <p className="text-gray-600 uppercase text-sm tracking-widest mb-4">Recognition</p>
-              <h2 className="text-5xl md:text-6xl font-bold">Publications & Awards</h2>
+              <p className="text-gray-600 uppercase text-xs tracking-widest mb-4">Recognition</p>
+              <h2 className="text-3xl md:text-4xl font-bold">Publications & Awards</h2>
             </div>
 
             <div className="grid md:grid-cols-4 gap-12 items-center">

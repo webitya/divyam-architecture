@@ -5,7 +5,7 @@ export default function ConservationHeritageDesign() {
         Conservation & Heritage Design
       </h1>
       <p className="text-gray-600 text-lg max-w-2xl text-center">
-        This is the Conservation & Heritage Design page for Plan Edge Architect.
+        This is the Conservation & Heritage Design page for DIVYAM ARCHITECTURE & DESIGN STUDIO.
       </p>
     </main>
   );

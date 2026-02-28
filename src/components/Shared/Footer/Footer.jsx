@@ -14,23 +14,27 @@ export default function Footer() {
 
         {/* LEFT — ABOUT COMPANY */}
         <div>
-          <h2 className="text-3xl font-bold tracking-wide mb-4">Planedge Architect</h2>
+          <img
+            src="/divyamarchitechwhitelogo.webp"
+            alt="DIVYAM"
+            className="w-32 h-auto mb-6 object-contain"
+          />
+          <h2 className="text-3xl font-bold tracking-wide mb-4">DIVYAM ARCHITECTURE & DESIGN STUDIO</h2>
           <p className="text-gray-300 leading-relaxed">
-            Planedge Architect is a premium architectural & interior design studio,
-            crafting innovative, timeless and functional spaces.
-            From residential to commercial and heritage projects, we transform concepts
-            into meaningful built experiences.
+            DIVYAM ARCHITECTURE & DESIGN STUDIO is a premium architectural & interior design studio,
+            taking inspiration from the past and client requirements to provide sustainable solutions.
+            We bring your dream vision to life through plans, mood boards, and 3D renderings.
           </p>
 
           {/* SOCIAL ICONS */}
           <div className="mt-6 flex gap-4">
-            <Link href="https://wa.me/919971189665" target="_blank" className="hover:text-green-400">
+            <Link href="https://wa.me/919956737555?text=Hello%20Divyam%20Architecture%20%26%20Design%20Studio%2C%20I%20have%20a%20query." target="_blank" className="hover:text-green-400">
               <WhatsAppIcon className="!w-7 !h-7" />
             </Link>
-            <Link href="#" className="hover:text-pink-500">
+            <Link href="https://www.instagram.com/divyam_architecture" target="_blank" className="hover:text-pink-500">
               <InstagramIcon className="!w-7 !h-7" />
             </Link>
-            <Link href="#" className="hover:text-blue-400">
+            <Link href="https://www.linkedin.com/company/divyam-architecture" target="_blank" className="hover:text-blue-400">
               <LinkedInIcon className="!w-7 !h-7" />
             </Link>
           </div>
@@ -49,10 +53,14 @@ export default function Footer() {
               </p>
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li><Link href="/services/architectural-design" className="hover:text-white">Architectural Design</Link></li>
-                <li><Link href="/services/planning-applications" className="hover:text-white">Planning Applications</Link></li>
                 <li><Link href="/services/interior-design" className="hover:text-white">Interior Design</Link></li>
-                <li><Link href="/services/conservation-heritage" className="hover:text-white">Conservation & Heritage</Link></li>
-                <li><Link href="/services/create-construct" className="hover:text-white">Create & Construct</Link></li>
+                <li><Link href="/services/landscape-design" className="hover:text-white">Landscape Design</Link></li>
+                <li><Link href="/services/renders" className="hover:text-white">3D Elevations</Link></li>
+                <li><Link href="/services/renders" className="hover:text-white">Renders</Link></li>
+                <li><Link href="/services/sustainable-solutions" className="hover:text-white">Sustainable Home Solutions</Link></li>
+                <li><Link href="/services/renovations" className="hover:text-white">Space Planning & Renovations</Link></li>
+                <li><Link href="/services/consultation" className="hover:text-white">Professional Advice</Link></li>
+                <li><Link href="/services/consultation" className="hover:text-white">Consultation</Link></li>
               </ul>
             </div>
 
@@ -101,10 +109,13 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4 tracking-wide">Contact</h3>
 
           <p className="text-gray-300 mb-2">
-            Email: planedgearchitect@gmail.com
+            Email: <a href="mailto:ar.divyamgupta@gmail.com" className="hover:text-white">ar.divyamgupta@gmail.com</a>
+          </p>
+          <p className="text-gray-300 mb-1">
+            Phone 1: +91-9956737555
           </p>
           <p className="text-gray-300 mb-6">
-            Phone: +91 9971189665
+            Phone 2: +91-7080802700
           </p>
 
           <h3 className="text-xl font-semibold mb-4 tracking-wide">Stay Updated</h3>
@@ -124,10 +135,10 @@ export default function Footer() {
 
       {/* COPYRIGHT + CREDIT LINE */}
       <div className="mt-16 text-center text-gray-500 text-sm border-t border-white/10 pt-6">
-        <p>© {new Date().getFullYear()} Planedge Architect. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} DIVYAM ARCHITECTURE & DESIGN STUDIO. All Rights Reserved.</p>
 
         <p className="mt-2 text-gray-400 text-xs tracking-wide">
-          Designed & Developed with precision by <a href="https://webitya.com" target="_blank" className="text-white">Webitya</a>
+          Designed & Developed with precision by <a href="https://nextbizdigital.com" target="_blank" className="text-white">Nextbiz Digital</a>
         </p>
       </div>
     </footer>

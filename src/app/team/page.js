@@ -7,11 +7,11 @@ import Footer from "@/components/Shared/Footer/Footer";
 
 export default function TeamPage() {
   React.useEffect(() => {
-    document.title = "Our Team | Plan Edge Architect";
+    document.title = "Our Team | DIVYAM ARCHITECTURE & DESIGN STUDIO";
   }, []);
 
   const teamMembers = [
-    { name: "Michael Chen", title: "Principal Architect", specialty: "Sustainable Design" },
+    { name: "Divyam Gupta", title: "Principal Architect", specialty: "Sustainable Design" },
     { name: "Sarah Anderson", title: "Lead Designer", specialty: "Interior Architecture" },
     { name: "James Mitchell", title: "Structural Engineer", specialty: "Engineering Solutions" },
     { name: "Elena Rodriguez", title: "Project Manager", specialty: "Project Delivery" },

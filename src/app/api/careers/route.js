@@ -24,7 +24,7 @@ export async function POST(req) {
 
     // Admin Email
     await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: process.env.MAIL_USER,
       subject: `New Job Application - ${position}`,
       html: `
@@ -42,7 +42,7 @@ export async function POST(req) {
 
     // User Email
     await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: email,
       subject: "Thank You for Applying",
       html: `
@@ -50,7 +50,7 @@ export async function POST(req) {
         <p>Your application for <strong>${position}</strong> has been received.</p>
         <p>Our HR team will review your resume and contact you soon.</p>
         <br/>
-        <p>Warm Regards,<br/>Plan Edge Architect Team</p>
+        <p>Warm Regards,<br/>DIVYAM ARCHITECTURE & DESIGN STUDIO Team</p>
       `,
     });
 

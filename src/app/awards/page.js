@@ -6,7 +6,7 @@ import Footer from "@/components/Shared/Footer/Footer";
 
 export default function AwardsPage() {
   React.useEffect(() => {
-    document.title = "Awards & Recognition | Plan Edge Architect";
+    document.title = "Awards & Recognition | DIVYAM ARCHITECTURE & DESIGN STUDIO";
   }, []);
 
   const awards = [

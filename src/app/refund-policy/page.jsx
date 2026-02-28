@@ -22,9 +22,10 @@ export default function RefundPolicy() {
 
                         <div className="mt-12 p-6 bg-white/5 border border-white/10 rounded-lg">
                             <h3 className="text-xl font-semibold text-white mb-4">Contact Us</h3>
-                            <p>H K ENTERPRISES</p>
-                            <p>Email: <a href="mailto:planedgearchitect@gmail.com" className="hover:text-white transition-colors">planedgearchitect@gmail.com</a></p>
-                            <p>Phone: +91 9971189665</p>
+                            <p>DIVYAM ARCHITECTURE & DESIGN STUDIO</p>
+                            <p>Email: <a href="mailto:ar.divyamgupta@gmail.com" className="hover:text-white transition-colors">ar.divyamgupta@gmail.com</a></p>
+                            <p>Phone 1: +91-9956737555</p>
+                            <p>Phone 2: +91-7080802700</p>
                         </div>
                     </div>
                 </div>

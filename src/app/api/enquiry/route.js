@@ -14,13 +14,10 @@ export async function POST(req) {
       },
     });
 
-    // ----------------------------
-    // SEND TO ADMIN (same as MAIL_USER)
-    // ----------------------------
-    await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+    const mailOptions = {
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: process.env.MAIL_USER,
-      subject: "New Enquiry Received - Plan Edge Architect",
+      subject: "New Enquiry Received - DIVYAM ARCHITECTURE & DESIGN STUDIO",
       html: `
         <h2>New Enquiry</h2>
         <p><strong>Name:</strong> ${name}</p>
@@ -28,28 +25,26 @@ export async function POST(req) {
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Message:</strong> ${message}</p>
       `,
-    });
+    };
+
+    await transporter.sendMail(mailOptions);
 
     // ----------------------------
     // SEND THANK YOU EMAIL TO USER
     // ----------------------------
-    await transporter.sendMail({
-      from: `"Plan Edge Architect" <${process.env.MAIL_USER}>`,
+    const confirmationMailOptions = {
+      from: `"DIVYAM ARCHITECTURE & DESIGN STUDIO" <${process.env.MAIL_USER}>`,
       to: email,
-      subject: "Thank You! We Received Your Enquiry",
+      subject: "We have received your enquiry",
       html: `
-        <h2>Thank You, ${name}!</h2>
-        <p>Your enquiry has been received. Our team will reach out soon.</p>
-        <br/>
-        <h3>Your Submitted Details:</h3>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Message:</strong> ${message}</p>
-        <br/>
-        <p>Warm Regards,<br/>Plan Edge Architect Team</p>
+        <h3>Hello ${name},</h3>
+        <p>Thank you for reaching out to DIVYAM ARCHITECTURE & DESIGN STUDIO. We have received your enquiry and will get back to you shortly.</p>
+        <p><strong>Your Message:</strong><br/>${message}</p>
+        <p>Warm Regards,<br/>DIVYAM ARCHITECTURE & DESIGN STUDIO Team</p>
       `,
-    });
+    };
+
+    await transporter.sendMail(confirmationMailOptions);
 
     return Response.json({ success: true }, { status: 200 });
 
